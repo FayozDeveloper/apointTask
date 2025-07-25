@@ -1,6 +1,5 @@
 import Layout from "./layouts/index.tsx";
 import AppRouter from "./routes/AppRouter.tsx";
-// import LoginPage from "./pages/Login.tsx";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {AuthProvider} from "./context/AuthContext.tsx";
@@ -14,7 +13,6 @@ function App() {
 
   return (
         <AuthProvider>
-            {/*<LoginPage/>*/}
             {isAuthPage ? (
                 <AppRouter />
             ) : (
@@ -22,9 +20,6 @@ function App() {
                     <AppRouter />
                 </Layout>
             )}
-              {/*<Layout>*/}
-              {/*  <AppRouter/>*/}
-              {/*</Layout>*/}
             <ToastContainer position="top-right" autoClose={3000} />
         </AuthProvider>
   )
