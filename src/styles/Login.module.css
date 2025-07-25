@@ -1,0 +1,50 @@
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cornflowerblue;
+}
+
+.login_block{
+    width: 500px;
+    border-radius: 14px;
+    padding: 2rem;
+    background: #fff;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    margin-top: 2rem;
+}
+
+.input{
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 14px;
+    padding: 1rem;
+    border: 1px solid #E1E4E7;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.button{
+    color: #fff;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 14px;
+    background: #05327E;
+    cursor: pointer;
+}
+
+.button:focus {
+    background-color: cornflowerblue;
+}

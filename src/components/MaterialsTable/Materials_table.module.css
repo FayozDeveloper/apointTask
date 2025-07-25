@@ -1,0 +1,17 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+}
+.filter_block{
+    display: flex;
+    gap: 1rem;
+}
+.data_picker{
+    width: 250px;
+    height: 50px;
+    border: 1px solid #E1E4E7;
+    padding: 1rem;
+    border-radius: 14px;
+}
